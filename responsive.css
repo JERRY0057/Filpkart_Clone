@@ -1,0 +1,39 @@
+@media screen and (max-width: 1000px) {
+  body {
+    /* background-color: blue; */
+  }
+  nav {
+    flex-direction: column;
+  }
+  .logo {
+    justify-content: center;
+  }
+  nav ul {
+    justify-content: center;
+    height: 46px;
+  }
+  .search {
+    justify-content: center;
+    margin: 0 16px;
+  }
+  .login {
+    margin-left: 92px;
+    width: 44px;
+  }
+  .img1 {
+    height: 42vh;
+    width: 48vw;
+  }
+  .img2 {
+    height: 22vh;
+    width: 52vw;
+  }
+  .img3 {
+    height: 18vh;
+    width: 52vw;
+    margin-top: -94px;
+  }
+  .sneakers{
+    margin-left: 5vw;
+  }
+}

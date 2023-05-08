@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 23px;
+}
+nav ul li a:hover {
+  color: rgb(72, 14, 34);
+  font-weight: bold;
+
+  padding: 23px;
+}
+nav ul {
+  height: 40px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+nav {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: ce;
+}
+.logo img {
+  width: 90px;
+  height: 25px;
+  padding-left: 11px;
+  padding-top: 7px;
+}
+.container {
+  min-height: calc(100vh - 40px - 12vh);
+}
+.search {
+  display: flex;
+  /* width: 10vw; */
+  /* height: 65px; */
+  align-items: center;
+}
+.search input {
+  width: 30vw;
+  height: 23px;
+  border-radius: 5px;
+  margin-left: 40px;
+  margin-right: 5px;
+}
+.login{
+  display: flex;
+  justify-content: center;
+  border: 2px solid white;
+  margin-left: 40px;
+  padding: 2px;
+  width: 200px;
+  background-color: white;
+  cursor: pointer;
+
+}
+.addtocart{
+  cursor: pointer;
+}
+.addtocart img{
+  margin-left:  10px;
+  padding: 2px;
+}
+.img1{
+
+  height: 80vh;
+width: 56vw;
+}
+.img2{
+  height: 55vh;
+  float: right;
+  width: 44vw;
+}
+.img3{
+  height: 24vh;
+  width: 44vw;
+  float: right;
+  margin-top: -185px;
+}
+.para{
+  background-image: linear-gradient(to right, #fffbd5, #b20a2c);
+}
+.sneakers{
+  display: flex;
+  justify-content: center;
+  margin-left: 30vww;
+  font-weight: bold;
+  margin-left: 40vw;
+  /* background-image: linear-gradient(to right, #fffbd5, #b20a2c); */
+
+}
+.card{
+  background-color: #d64c7f;
+  max-width: 80vw;
+  margin: 6px;
+  display: inline-flex;
+  width: 24vw;
+ 
+}
+.card img{
+  height: 12vh;
+  display: inline-flex;
+  justify-content: center;
+}
+.jordan {
+  height: 5vh;
+  display: flex;
+  /* justify-content: center; */
+  
+  
+}
+
+footer {
+  height: 12vh;
+  /* background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e); */
+  background-image: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+  color: white;
+  font-family: "Source Sans Pro", "sans-serif";
+}
+header {
+  color: black;
+
+  background-image: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+  /* background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e); */
+  border: 2px solid red;
+  font-family: "Source Sans Pro", sans-serif;
+}
